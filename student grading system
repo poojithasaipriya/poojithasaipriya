@@ -1,0 +1,44 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <iomanip>
+#include <limits>
+using namespace std;
+// Structure to store student information
+struct Student {
+string name;
+
+vector<double> assignmentGrades;
+double finalGrade; // Added to store the final grade
+};
+// Function declaration
+double calculateFinalGrade(const vector<double>& assignmentGrades);
+// Function to add a student
+void addStudent(vector<Student>& students) {
+// Implementation details...
+}
+// Function to calculate the final grade
+double calculateFinalGrade(const vector<double>& assignmentGrades)
+{
+// Implementation details...
+}
+// Function to display statistics
+void displayStatistics(const vector<Student>& students) {
+// Implementation details...
+}
+// Function to export report
+void exportReport(const vector<Student>& students, const string&
+filename) {
+// Implementation details...
+
+}
+int main() {
+vector<Student> students;
+// Main program loop with options to add students, display statistics,
+export report, and exit
+while (true) {
+// Implementation details...
+}
+return 0;
+}
